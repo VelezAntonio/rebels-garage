@@ -316,8 +316,8 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="font-medium">Hours</h3>
-                      <p className="text-sm text-muted-foreground">Monday-Friday: 8am-6pm</p>
-                      <p className="text-sm text-muted-foreground">Saturday: 9am-3pm</p>
+                      <p className="text-sm text-muted-foreground">Monday-Friday: 8am-5:30pm</p>
+                      <p className="text-sm text-muted-foreground">Saturday: 9am-1pm</p>
                       <p className="text-sm text-muted-foreground">Sunday: Closed</p>
                     </div>
                   </div>
