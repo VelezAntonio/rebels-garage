@@ -6,37 +6,41 @@ import { Dialog, DialogContent } from "@/components/ui/dialog"
 import { Button } from "@/components/ui/button"
 import { ChevronLeft, ChevronRight, X } from "lucide-react"
 
-// Sample gallery images - in a real project, these would be actual images
 const galleryImages = [
   {
-    src: "/gallery-1.jpg",
-    alt: "Car collision repair before and after",
-    caption: "Car collision repair - Before & After",
+    src: "/work-bmw-x6-white.png",
+    alt: "White BMW X6 parked outside the shop",
+    caption: "BMW X6 - Factory white (before)",
   },
   {
-    src: "/gallery-2.jpg",
-    alt: "Custom paint job on truck",
-    caption: "Custom paint job on truck",
+    src: "/work-bmw-x6.png",
+    alt: "BMW X6 with custom emerald green color change and gloss black wheels",
+    caption: "BMW X6 - Custom emerald green color change (after)",
   },
   {
-    src: "/gallery-3.jpg",
-    alt: "RV body repair",
-    caption: "RV body repair",
+    src: "/work-elcamino.jpeg",
+    alt: "Red Chevrolet El Camino with black racing stripes",
+    caption: "Chevy El Camino - Custom red paint with black racing stripes",
   },
   {
-    src: "/gallery-4.jpg",
-    alt: "UTV restoration",
-    caption: "UTV restoration",
+    src: "/work-chevy-obs.jpeg",
+    alt: "Freshly painted red Chevrolet OBS truck in the shop",
+    caption: "Chevy OBS - Full repaint in show-quality red",
   },
   {
-    src: "/gallery-5.jpg",
-    alt: "Dent repair process",
-    caption: "Dent repair process",
+    src: "/work-jeep-wrangler.jpg",
+    alt: "Burgundy Jeep Wrangler with light bar and custom bumper",
+    caption: "Jeep Wrangler - Custom burgundy build & off-road upgrades",
   },
   {
-    src: "/gallery-6.jpg",
-    alt: "Box truck commercial repair",
-    caption: "Box truck commercial repair",
+    src: "/work-ford-f250.jpg",
+    alt: "White Ford F-250 Super Duty Platinum truck, front view",
+    caption: "Ford F-250 Platinum - Detail & finish work",
+  },
+  {
+    src: "/work-acura-tl.jpg",
+    alt: "Dark gray Acura TL sedan with bronze wheels, lowered",
+    caption: "Acura TL - Custom finish with bronze wheels",
   },
 ]
 
