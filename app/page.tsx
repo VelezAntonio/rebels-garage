@@ -187,55 +187,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Custom Paint Job Section */}
-        <section className="py-16 md:py-24 bg-muted/50">
-          <div className="container">
-            <div className="flex flex-col items-center text-center mb-12">
-              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Custom Paint Transformations</h2>
-              <p className="mt-4 max-w-3xl text-muted-foreground">
-                See the stunning results of our expert custom paint services. We transform vehicles with precision color matching and flawless finishes.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              <div className="relative">
-                <div className="absolute top-4 left-4 bg-foreground text-background px-3 py-1 rounded-full text-sm font-medium z-10">
-                  Before
-                </div>
-                <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                  <Image 
-                    src="/custom-paint-before.jpg" 
-                    alt="BMW X6 before custom paint - original white color" 
-                    fill 
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-              <div className="relative">
-                <div className="absolute top-4 left-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-medium z-10">
-                  After
-                </div>
-                <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
-                  <Image 
-                    src="/custom-paint-after.jpg" 
-                    alt="BMW X6 after custom paint - stunning emerald green metallic finish" 
-                    fill 
-                    className="object-cover"
-                  />
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-8 text-center">
-              <p className="text-lg font-medium">BMW X6 Complete Color Change</p>
-              <p className="text-muted-foreground">From factory white to a stunning custom emerald green metallic finish</p>
-              <Button className="mt-6" asChild>
-                <a href="#contact">Get Your Custom Quote</a>
-              </Button>
-            </div>
-          </div>
-        </section>
-
         {/* Gallery Section */}
         <GallerySection />
 
