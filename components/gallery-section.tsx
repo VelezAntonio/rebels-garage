@@ -13,6 +13,11 @@ const galleryImages = [
     caption: "BMW X6 - Custom emerald green color change with blacked-out trim",
   },
   {
+    src: "/work-bmw-x6-white.png",
+    alt: "White BMW X6 parked outside the shop",
+    caption: "BMW X6 - Factory white before the custom color change",
+  },
+  {
     src: "/work-elcamino.jpeg",
     alt: "Red Chevrolet El Camino with black racing stripes",
     caption: "Chevy El Camino - Custom red paint with black racing stripes",
