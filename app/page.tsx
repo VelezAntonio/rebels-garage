@@ -218,7 +218,7 @@ export default function Home() {
                 <div className="relative h-[300px] md:h-[400px] rounded-lg overflow-hidden">
                   <Image 
                     src="/custom-paint-after.jpg" 
-                    alt="BMW X6 after custom paint - stunning teal metallic finish" 
+                    alt="BMW X6 after custom paint - stunning emerald green metallic finish" 
                     fill 
                     className="object-cover"
                   />
@@ -228,7 +228,7 @@ export default function Home() {
 
             <div className="mt-8 text-center">
               <p className="text-lg font-medium">BMW X6 Complete Color Change</p>
-              <p className="text-muted-foreground">From factory white to a stunning custom teal metallic finish</p>
+              <p className="text-muted-foreground">From factory white to a stunning custom emerald green metallic finish</p>
               <Button className="mt-6" asChild>
                 <a href="#contact">Get Your Custom Quote</a>
               </Button>
