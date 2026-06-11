@@ -8,6 +8,11 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react"
 
 const galleryImages = [
   {
+    src: "/work-bmw-x6.png",
+    alt: "BMW X6 with custom emerald green color change and gloss black wheels",
+    caption: "BMW X6 - Custom emerald green color change with blacked-out trim",
+  },
+  {
     src: "/work-elcamino.jpeg",
     alt: "Red Chevrolet El Camino with black racing stripes",
     caption: "Chevy El Camino - Custom red paint with black racing stripes",
