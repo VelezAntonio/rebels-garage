@@ -8,14 +8,14 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react"
 
 const galleryImages = [
   {
-    src: "/work-bmw-x6.png",
-    alt: "BMW X6 with custom emerald green color change and gloss black wheels",
-    caption: "BMW X6 - Custom emerald green color change with blacked-out trim",
-  },
-  {
     src: "/work-bmw-x6-white.png",
     alt: "White BMW X6 parked outside the shop",
-    caption: "BMW X6 - Factory white before the custom color change",
+    caption: "BMW X6 - Factory white (before)",
+  },
+  {
+    src: "/work-bmw-x6.png",
+    alt: "BMW X6 with custom emerald green color change and gloss black wheels",
+    caption: "BMW X6 - Custom emerald green color change (after)",
   },
   {
     src: "/work-elcamino.jpeg",
